@@ -1,0 +1,10 @@
+name: on-push
+on: 
+  push:
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dummyorg42/which/main
+        run: echo "dummyorg42/which/main"
+  
