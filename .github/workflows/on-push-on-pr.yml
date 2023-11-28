@@ -1,4 +1,4 @@
-name: which
+name: on-push-on-pr
 on: 
   push:
   pull_request:
